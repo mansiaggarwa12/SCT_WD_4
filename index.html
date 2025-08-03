@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="ld">
+
+            <table id="todo_table">
+                <tr>
+                    <th style="width: 5%;padding: 20px;"> S.no </th>
+                    <th style="width: 58%;"> Work To Do </th>
+                    <th style="width: 12%;"> Progress </th>
+                    <th style="width: 10%;"> Time </th>
+                    <th style="width: 15%;"> Edit </th>
+                </tr>
+            </table>
+
+
+        </div>
+
+
+        <div id="rd">
+
+            <form class="todo_form">
+                <h2 style="text-decoration: underline;">Add To-Do Item</h2>
+                <div class="ip">
+                    <label for="task">Task</label>
+                    <textarea id="task" name="task" placeholder="Enter your task..." required></textarea>
+                </div>
+                <div class="fip">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" placeholder="Any additional notes..."></textarea>
+                </div>
+                <button type="submit" id="addTaskBtn">Add Task</button>
+            </form>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

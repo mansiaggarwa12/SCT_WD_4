@@ -1,0 +1,89 @@
+body{
+    overflow-y: hidden;
+        background-color: #e5989b;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 98vh;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: candara, sans-serif;
+}
+
+#ld {
+    padding: 10px;
+    width: 60%;
+    /* background-color: rgb(246, 160, 160); */
+    background-color: #ffcdb2;
+    border: 3px solid black;
+    margin: 3px;
+    overflow-y: auto;
+}
+
+#rd {
+    padding: 10px;
+    width: 40%;
+    /* background-color: rgb(148, 148, 229); */
+    background-color: #b5838d;
+    border: 3px solid black;
+    margin: 3px;
+}
+
+#todo_table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+
+.todo_form {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+h2{
+    margin: 20px;
+    margin-bottom: 0px;
+}
+label {
+    display: block;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+    width: 90%;
+    height: 60PX;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+button:hover {
+    background-color: #beeafd;
+}
+
+button {
+    background-color: white;
+    height: 30px;
+    color: black;
+    width: 70%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+td button {
+    margin: 0;
+    width: 50;
+    margin: 3px
+}
